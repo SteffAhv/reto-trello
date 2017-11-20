@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Trello</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <script src="https://use.fontawesome.com/21b158d175.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="nav-left">
+        <li><button class="btn"><i class="fa fa-trello" aria-hidden="true"></i>Tableros</button></li>
+        <li>
+          <div>
+            <input type="text" class="searchTerm">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+             </button>
+           </div>
+        </li>
+        <li id="logo"><i class="fa fa-trello" aria-hidden="true"></i>Trello</li>
+      </ul>
+      <ul class="nav-right">
+        <li><div class="square-icons"><i class="fa fa-plus" aria-hidden="true"></i></div></li>
+        <li><div class="square-icons"><i class="fa fa-info-circle" aria-hidden="true"></i></div></li>
+        <li><div class="square-icons"><i class="fa fa-bell-o" aria-hidden="true"></i></div></li>
+        <li><div class="square-icons rounded">EH</div></li>
+      </ul>
+    </header>
+    <main id="board">
+        <nav>
+          <ul id="secondary-nav">
+            <li class="secondary-nav-items cursive"><em>Tablero sin título</em></li>
+            <li class="secondary-nav-items"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+            <li class="secondary-nav-items"><i class="fa fa-lock" aria-hidden="true"></i>Private</li>
+            <li class="nav-right show-menu"><i class="fa fa-ellipsis-h"> </i> <a href="#">Mostrar Menú</a></li>
+          </ul>
+        </nav>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
